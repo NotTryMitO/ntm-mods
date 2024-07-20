@@ -41,7 +41,7 @@ body {
   
   @font-face {
 	font-family: 'FONTE';
-	src: url('retro_computer_personal_use.ttf') format('truetype');
+	src: url('FONTE.ttf') format('truetype');
   }
   
   nav ul {
