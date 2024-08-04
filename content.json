@@ -1,0 +1,21 @@
+{
+    "siteTitle": "Your Website",
+    "pages": [
+        {
+            "title": "Home",
+            "url": "/pages/index.html"
+        },
+        {
+            "title": "About",
+            "url": "/pages/about.html"
+        },
+        {
+            "title": "Services",
+            "url": "/pages/services.html"
+        },
+        {
+            "title": "Contact",
+            "url": "/pages/contact.html"
+        }
+    ]
+}
