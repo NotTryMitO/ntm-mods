@@ -1,9 +1,18 @@
 // scripts.js
 document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll('button');
+  const buttons = document.querySelectorAll('.mod1-download');
   buttons.forEach(button => {
       button.addEventListener('click', event => {
           window.open('https://www.curseforge.com/minecraft/mc-mods/the-empyrium', '_blank');
+      });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.mod2-download');
+  buttons.forEach(button => {
+      button.addEventListener('click', event => {
+          window.open('https://www.mediafire.com/file/vnoo23vs2rz3jhb/Custom_Music_Discs_-_NotTryMitO.zip/file', '_blank');
       });
   });
 });
