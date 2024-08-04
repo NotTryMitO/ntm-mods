@@ -6,7 +6,6 @@ body {
   flex-direction: column;
   height: 1.0000rem;
   overflow-x: hidden;
-
 }
 
 header {
@@ -37,11 +36,12 @@ main{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 @font-face {
   font-family: 'FONTE';
-  src: url('FONTE.ttf') format('truetype');
+  src: url('/assets/fonts/FONTE.ttf') format('truetype');
 }
 
 .navigator{
@@ -197,6 +197,7 @@ nav ul li a:hover {
   align-items: center;
   flex-direction: row;
   padding: 13rem;
+  overflow-x: hidden;
 }
 
 .container{
@@ -269,7 +270,7 @@ nav ul li a:hover {
   margin-bottom: 1rem;
   border-radius: 0.5000rem;
   text-align: center;
-  width: 15.625rem;
+  width: 17rem;
   -webkit-border-radius: 0.5000rem;
   -moz-border-radius: 0.5000rem;
   -ms-border-radius: 0.5000rem;
@@ -281,7 +282,7 @@ nav ul li a:hover {
   margin-bottom: 1rem;
   border-radius: 0.5000rem;
   text-align: center;
-  width: 15.625rem;
+  width: 17rem;
   -webkit-border-radius: 0.5000rem;
   -moz-border-radius: 0.5000rem;
   -ms-border-radius: 0.5000rem;
@@ -293,7 +294,7 @@ nav ul li a:hover {
   margin-bottom: 1rem;
   border-radius: 0.5000rem;
   text-align: center;
-  width: 15.625em;
+  width: 17em;
   -webkit-border-radius: 0.5000rem;
   -moz-border-radius: 0.5000rem;
   -ms-border-radius: 0.5000rem;
@@ -305,19 +306,19 @@ nav ul li a:hover {
 }
 
 .mod img {
-  max-width: 9.375rem;
-  height: auto;
+  max-width: 100%;
+  height: 150px;
   border-radius: 0px;
+  width: 150px;
 }
+
 .mod2 img {
   max-width: 100%;
-  height: auto;
-  border-radius: 0em;
-  -webkit-border-radius: 0em;
-  -moz-border-radius: 0em;
-  -ms-border-radius: 0em;
-  -o-border-radius: 0em;
+  height: 150px;
+  border-radius: 0px;
+  width: 150px;
 }
+
 .mod3 img {
   max-width: 100%;
   height: auto;
