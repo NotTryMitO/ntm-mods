@@ -1,4 +1,5 @@
 // scripts.js
+// links/buttons starts
 document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('.mod1-download');
   buttons.forEach(button => {
@@ -13,6 +14,15 @@ document.addEventListener('DOMContentLoaded', () => {
   buttons.forEach(button => {
       button.addEventListener('click', event => {
           window.open('https://www.mediafire.com/file/vnoo23vs2rz3jhb/Custom_Music_Discs_-_NotTryMitO.zip/file', '_blank');
+      });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('.mod33-download');
+  buttons.forEach(button => {
+      button.addEventListener('click', event => {
+          window.open('https://discord.com/oauth2/authorize?client_id=1223748204483313734', '_blank');
       });
   });
 });
@@ -41,8 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 });
+// links/buttons ends
 
-
+//header script starts
 $(function () {
   // Smooth Scroll
   $('a.smoth-scroll').on('click', function (event) {
@@ -92,3 +103,4 @@ $(function () {
     lastScrollTop = st;
   });
 });
+//header script ends
