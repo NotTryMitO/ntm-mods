@@ -1,3 +1,4 @@
+/* body starts */
 body {
   font-family: FONTE;
   margin: 0;
@@ -41,7 +42,7 @@ main{
 
 @font-face {
   font-family: 'FONTE';
-  src: url('FONTE.ttf') format('truetype');
+  src: url('/assets/fonts/FONTE.ttf') format('truetype');
 }
 
 .navigator{
@@ -80,7 +81,8 @@ nav ul li a:hover {
   background-color: #000000;
   color: #332F2E;
 }
-
+/* body ends */
+/* icon footer starts */
 .wrapper {
 	list-style: none;
 	height: 100px;
@@ -175,13 +177,7 @@ nav ul li a:hover {
 	width: 25px;
   }
   
-  main {
-	padding: 20px;
-	color: white;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  }
+
 
 
 #home {
@@ -321,12 +317,9 @@ nav ul li a:hover {
 
 .mod3 img {
   max-width: 100%;
-  height: auto;
-  border-radius: 0rem;
-  -webkit-border-radius: 0rem;
-  -moz-border-radius: 0rem;
-  -ms-border-radius: 0rem;
-  -o-border-radius: 0rem;
+  height: 150px;
+  border-radius: 0px;
+  width: 150px;
 }
 
 .mod h3 {
@@ -338,6 +331,7 @@ nav ul li a:hover {
 .mod3 h3 {
   margin-top: 0.5rem;
 }
+
 button {
   font-family: 'FONTE';
   font-size: 13px;
@@ -621,4 +615,3 @@ button:active {
   background: #1877f2;
   color: #fff;
 }
-
