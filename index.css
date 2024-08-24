@@ -42,7 +42,7 @@ main{
 
 @font-face {
   font-family: 'FONTE';
-  src: url('/assets/fonts/FONTE.ttf') format('truetype');
+  src: url('FONTE.ttf') format('truetype');
 }
 
 .navigator{
